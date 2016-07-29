@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+            android:id="@+id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:hint="笔记标题"
+            android:singleLine="true"
+            android:textColor="#25BC59"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/chooseNoteBook"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_below="@id/noteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/image02_gray"
+            android:drawablePadding="7dp"
+            android:gravity="center_vertical"
+            android:text="第一本笔记本"
+            android:textColor="#D42662"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_below="@id/chooseNoteBook"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_line_1px" />
+    
+
+</RelativeLayout>

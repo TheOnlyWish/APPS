@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/function_area"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+	
+    <TextView 
+        android:id="@+id/title_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排序方式"
+        android:textSize="18sp"
+        android:textColor="#5EB335"
+        android:layout_margin="15dp"
+        />
+
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/tab_normal"
+        />
+    
+    
+    <ListView 
+        android:id="@+id/listView_function"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/shape_line_1px"
+        android:listSelector="@drawable/selector_item_list_menu_bg"
+        >
+        
+    </ListView>
+    
+
+
+</LinearLayout>

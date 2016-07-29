@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="注册失败"
+        android:textSize="22sp"
+        />
+    <TextView 
+        android:id="@+id/ad_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textColor="#90000000"
+        android:text="请输入电话号码"
+        android:textSize="18sp"
+        />
+    
+    <TextView 
+        android:id="@+id/ad_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/selector_ad_ok_text_bg"
+        android:layout_gravity="right"
+        android:textColor="#BBff0000"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="好"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

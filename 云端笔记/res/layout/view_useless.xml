@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <LinearLayout
+        android:id="@+id/f_allnote_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EEEEEE"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/f_allnote_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="2016 年  6 月"
+            android:textColor="#9000"
+            android:textSize="12sp" />
+       
+        <ImageView
+            android:id="@+id/line_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_rect_shadow"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/f_allnote_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/f_allnote_time"
+        android:layout_marginLeft="8dp"
+        android:divider="@drawable/shape_line_1px"
+        android:listSelector="@drawable/selector_bg_item_list"
+        android:paddingRight="8dp"
+        android:scrollbars="none" >
+    </ListView>
+
+	
+    
+</RelativeLayout>

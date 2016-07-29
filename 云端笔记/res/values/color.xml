@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_enable">#000000</color>
+    <color name="text_disable">#26bc5a</color>
+    <color name="whilte_transparent_2">#2fff</color>
+    <color name="whilte_transparent_0">#0fff</color>
+    <color name="bg_note_item_pressed">#D42662</color>
+    <color name="bg_note_item_selected">#E6E6E6</color>
+    <color name="bg_note_item_normal">#ffffff</color>
+    <color name="time_color_text">#25BC59</color>
+    <color name="black">#000</color>
+    <color name="whilte">#fff</color>
+    <color name="scrollBg">#5C5B57</color>
+    <color name="noteTextEnable">#000</color>
+    <color name="noteTextDisable">#60AF3A</color>
+</resources>
