@@ -1,0 +1,15 @@
+云端笔记
+	主要实现了用户笔记的本地存储，和上传到自己的网络文件夹里（就是服务器），实现了本地与服务器的笔记的增删改查，添加自定义复选框，实现了多文件上传与下载。
+	设计模式:
+		用到了builder模式：AlertDialog的builder模式
+		适配器模式:BaseAdapter
+		命令模式:handler.post
+		单例模式:私有化构造，对外提供静态的方法
+		抽象工厂:基类的pager
+	技术:xUtils bitmapUtils用于显示图片，内部实现图片优化,HttpUtils请求网络数据，Gson解析数据，handler异步发送请求刷新UI。
+
+智慧北京:
+	负责项目的新闻中心模块开发，智慧北京的项目框架搭建，通过HttpUtils请求网络数据，解析服务端发送过来的json数据，用Gson解析成数据集合，再用ListView展示，自定义ViewPager和ListView对事件拦截的处理
+	技术:SlidingMenu、xUtils、ViewPagerIndicator开源项目，缓存技术(三级缓存，LruCache)，自定义listView实现下拉刷新和上拉加载，ShareSDK等技术.
+	
+

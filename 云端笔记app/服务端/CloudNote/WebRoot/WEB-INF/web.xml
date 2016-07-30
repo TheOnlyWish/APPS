@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>com.king.servlet.RegistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <servlet-class>com.king.servlet.CheckCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.king.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SynchronizationServlet</servlet-name>
+    <servlet-class>com.king.servlet.SynchronizationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlete</servlet-name>
+    <servlet-class>com.king.servlet.UpdateServlete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateTextServlet</servlet-name>
+    <servlet-class>com.king.servlet.UpdateTextServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUserNoteCountServlet</servlet-name>
+    <servlet-class>com.king.servlet.GetUserNoteCountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <servlet-class>com.king.servlet.DownLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownLoadNoteBooksServlet</servlet-name>
+    <servlet-class>com.king.servlet.DownLoadNoteBooksServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckCodeServlet</servlet-name>
+    <url-pattern>/CheckCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SynchronizationServlet</servlet-name>
+    <url-pattern>/SynchronizationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlete</servlet-name>
+    <url-pattern>/UpdateServlete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTextServlet</servlet-name>
+    <url-pattern>/UpdateTextServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserNoteCountServlet</servlet-name>
+    <url-pattern>/GetUserNoteCountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadServlet</servlet-name>
+    <url-pattern>/DownLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownLoadNoteBooksServlet</servlet-name>
+    <url-pattern>/DownLoadNoteBooksServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
